@@ -24,4 +24,4 @@ This repository contains a React.js application designed for image annotation. T
 
 2. **Annotation Logic**:
     - If `startCoordinate` and `endCoordinate` are null, the user can annotate the image manually using the provided tools.
-   
+    - If `startCoordinate` and `endCoordinate` have values, the annotation will be automatically applied based on these coordinates.
